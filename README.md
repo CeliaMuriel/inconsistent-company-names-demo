@@ -9,4 +9,4 @@ Cloud DataPrep (by Trifacta):
 
 
 Fuzzy Matching or approximate string matching --> https://celiamuriel.blogspot.com/2021/11/fuzzy-matching-or-approximate-string.html
-Fuzzy Matching Demo: Inconsistent company names --> https://celiamuriel.blogspot.com/2021/11/httpsceliamuriel.blogspot.com202111fuzzy-matching-inconsistent-company-names.html.html
+Fuzzy Matching Demo: Inconsistent company names --> https://celiamuriel.blogspot.com/2021/11/fuzzy-matching-demo-inconsistent.html
