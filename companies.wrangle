@@ -1,0 +1,27 @@
+settype col: {ZIP Code} type: String
+replacepatterns col: {Company Name} with: '' on: `NO USAR` global: true
+replacepatterns col: {Company Name} with: '' on: `no usar` global: true
+replacepatterns col: {Company Name} with: '' on: `No usar` global: true
+replacepatterns col: {Company Name} with: '' on: `NO UTILIZAR` global: true
+replacepatterns col: {Company Name} with: '' on: `non usare` global: true
+replacepatterns col: {Company Name} with: '' on: `NON USARE` global: true
+replacepatterns col: {Company Name} with: '' on: `non utilizzare` global: true
+replacepatterns col: {Company Name} with: '' on: `NON UTILIZZARE` global: true
+standardize artifactTable: MISSING col: {Company Name}
+textformat col: {Company Name} type: trimquotes
+textformat col: {Company Name} type: trimwhitespace
+rename type: manual mapping: [Country1,'Town']
+textformat col: Town type: propercase
+textformat col: Town type: removeaccents
+textformat col: Town type: removesymbols
+standardize artifactTable: MISSING col: Town
+deduplicate
+rename type: manual mapping: [{Company Name},'company_name']
+rename type: manual mapping: [Country,'country']
+rename type: manual mapping: [{Company ID 1},'Company_id1']
+rename type: manual mapping: [Company_id1,'company_id1']
+rename type: manual mapping: [{Company ID 2},'company_id2']
+rename type: manual mapping: [{Company ID 3},'company_id3']
+rename type: manual mapping: [{Company ID 4},'company_id4']
+rename type: manual mapping: [Town,'town']
+rename type: manual mapping: [{ZIP Code},'zipcode']
