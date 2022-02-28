@@ -10,6 +10,6 @@ After doing the demo myself, I saved:
 * The flow VanillaFlow.zip to ingest the data from the file into BigQuery.
 
 
-Fuzzy Matching or approximate string matching --> https://celiamuriel.blogspot.com/2021/12/fuzzy-matching-or-approximate-string.html
+Fuzzy Matching or approximate string matching --> https://celiamuriel.com/fuzzy-matching-or-approximate-string-matching/
 
-Fuzzy Matching Demo: Inconsistent company names --> https://celiamuriel.blogspot.com/2021/11/fuzzy-matching-demo-inconsistent.html
+Fuzzy Matching Demo: Inconsistent company names --> https://celiamuriel.com/fuzzy-matching-demo-inconsistent-company-names/
